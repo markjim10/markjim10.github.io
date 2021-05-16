@@ -1,11 +1,9 @@
-/* body {
+body {
   background-color: whitesmoke;
-  color: whitesmoke;
-} */
+}
 
-nav {
+.navbar {
   font-weight: bold;
-  color: #171717;
 }
 
 .profile {
@@ -16,4 +14,18 @@ nav {
 
 #profilePic {
   width: 240px;
+}
+.card {
+  border-radius: 0%;
+}
+
+.card-body {
+  border-radius: 0%;
+}
+
+.anchor {
+  display: block;
+  height: 92px;
+  margin-top: -92px;
+  visibility: hidden;
 }
