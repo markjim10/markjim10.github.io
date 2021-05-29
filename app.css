@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: whitesmoke;
 }
@@ -6,20 +10,11 @@ body {
   font-weight: bold;
 }
 
-.profile {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-}
-
 #profilePic {
   width: 240px;
 }
-.card {
-  border-radius: 0%;
-}
 
-.card-body {
+.card-img-top {
   border-radius: 0%;
 }
 
@@ -28,4 +23,55 @@ body {
   height: 92px;
   margin-top: -92px;
   visibility: hidden;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+.skills {
+  padding: 6px;
+}
+
+.nav-item a i {
+  color: #171717;
+  transition: 0.3s;
+}
+
+.fab:hover {
+  opacity: 0.6;
+}
+
+.fas:hover {
+  opacity: 0.6;
+}
+
+.fa-github {
+  color: whitesmoke;
+}
+
+.fa-linkedin {
+  color: #0a66c2 !important;
+}
+
+.fa-envelope-square {
+  color: orangered !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    margin-bottom: 24px;
+  }
+
+  .btn-md {
+    margin-bottom: 8px !important;
+  }
+}
+
+.links li {
+  margin-right: 12px;
+}
+
+.list-inline-item img {
+  width: 64px;
 }
